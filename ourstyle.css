@@ -1,0 +1,93 @@
+.A{
+  background-color: navy ;
+  color: white;
+  padding: 15px 40px 15px;
+  border-top-right-radius: 41px;
+  border-top-left-radius: 41px;
+}
+.Main{
+  
+  background-image: url(https://i.ytimg.com/vi/AjSKaSsBhuo/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  backface-visibility: hidden;
+ 
+  }
+.welcome{
+ color:all;
+ font-size:30px; 
+ font-style: italic;
+text-align-last:center;
+
+}
+.images{
+  background-image: url(space.jpg);
+backface-visibility: hidden;
+background-size: cover;
+}
+.h1{
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+.Pro{
+  background-image: url(bg1.jpg);
+  display: flex;
+
+
+}
+ 
+.form{ 
+
+background-size: cover;
+background-image: url(ai.jpg); 
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+}
+.one{
+  background-color: black;
+  color: blueviolet;
+  align-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+.t{
+  font-size: 25px;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 576px) {
+  .Main{
+  background-image: url(https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+
+}
+
+* Tablet Styles */
+@media only screen and (min-width: 577px) and (max-width: 960px) {
+  .pro{
+  
+  background-image: url(https://i.ytimg.com/vi/AjSKaSsBhuo/maxresdefault.jpg);
+  backface-visibility: hidden;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .pro{
+  
+  background-image: url(https://i.ytimg.com/vi/AjSKaSsBhuo/maxresdefault.jpg);
+  backface-visibility: hidden;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
